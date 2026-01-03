@@ -1,3 +1,5 @@
+package Two_pointers;
+
 /*
  LeetCode: Intersection of Two Arrays II
  Difficulty: Easy
@@ -11,6 +13,8 @@
  Time Complexity: O(n log n + m log m)
  Space Complexity: O(min(n, m)) for output list
 */
+
+import java.util.*;
 
 class Solution {
     public int[] intersect(int[] nums1, int[] nums2) {
