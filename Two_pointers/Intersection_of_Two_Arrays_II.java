@@ -4,6 +4,7 @@ package Two_pointers;
  LeetCode: Intersection of Two Arrays II
  Difficulty: Easy
  Pattern: Two Pointers
+ 
  Approach:
  1. Sort both arrays
  2. Use two pointers to compare elements

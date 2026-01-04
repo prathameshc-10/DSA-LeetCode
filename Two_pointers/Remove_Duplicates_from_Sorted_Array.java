@@ -1,5 +1,7 @@
 package Two_pointers;
 /*
+LeetCode: Remove Duplicates from Sorted Array
+Difficulty: Easy
 Pattern: Two Pointers
 
 Approach:

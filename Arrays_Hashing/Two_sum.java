@@ -1,7 +1,7 @@
 /*
  LeetCode: Two Sum
  Difficulty: Easy
- Pattern: Hashing (Complement Lookup)
+ Pattern: Hashing 
 
  Approach:
  1. Use a HashMap to store numbers and their indices.
