@@ -44,7 +44,7 @@ class Solution {
         for(Map.Entry<Integer, Integer> entry: map.entrySet()){
             minHeap.add(entry);
             if(minHeap.size() > k){
-                minHeap.poll();
+                minHeap.poll();     
             }
         }
 
