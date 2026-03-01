@@ -1,3 +1,5 @@
+package Stack;
+
 /*
 Problem Name:
 Valid Parentheses
@@ -42,7 +44,7 @@ Space Complexity:
 O(n) — In the worst case, all characters are opening brackets
        and stored in the stack.
 */
-
+import java.util.Stack; 
 class Solution {
     public boolean isValid(String s) {
         Stack<Character> stack = new Stack<>();
