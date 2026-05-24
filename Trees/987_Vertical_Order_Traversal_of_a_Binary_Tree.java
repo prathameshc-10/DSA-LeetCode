@@ -1,6 +1,42 @@
 package Trees;
 import java.util.*;
 
+/*
+Problem Name:
+Vertical Order Traversal of a Binary Tree
+
+Difficulty Level:
+Hard
+
+Approach:
+- Use Breadth First Search (BFS) with a Queue
+  to traverse nodes along with their coordinates.
+- Assign coordinates:
+    - Root → (0, 0)
+    - Left Child  → (x - 1, y + 1)
+    - Right Child → (x + 1, y + 1)
+- Use nested TreeMaps to maintain sorted order:
+    - Outer TreeMap stores vertical columns (x-coordinate).
+    - Inner TreeMap stores levels (y-coordinate).
+- Use PriorityQueue to store node values:
+    - Handles multiple nodes at same position.
+    - Keeps values sorted in ascending order.
+- Traverse the map column by column
+  and collect values into the final result.
+
+Data Structure Used:
+TreeMap<x, TreeMap<y, PriorityQueue<nodeValues>>>
+
+Time Complexity:
+O(n log n)
+- Each insertion into TreeMap/PriorityQueue takes log n time.
+
+Space Complexity:
+O(n)
+- Queue, maps, and result store all tree nodes.
+*/
+
+
 class TreeNode{
     int val;
     TreeNode left;
